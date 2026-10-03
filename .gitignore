@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+/.pnpm-store
+
+# Next.js build output
+.next/
+out/
+
+# Database files (DO NOT commit your local dev SQLite DB)
+prisma/dev.db
+prisma/dev.db-journal
+
+# Environment variables
+.env
+.env*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
